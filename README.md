@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ```python
 import asyncio
-from auth import MinecraftAuth
+from mcauth import MinecraftAuth
 
 async def main():
     async with MinecraftAuth(cache_path="auth_cache.json") as auth:
