@@ -71,7 +71,7 @@ asyncio.run(main())
 
 ## Token Caching
 
-All tokens are cached in JSON (`cache_path`) to avoid re-authentication. Tokens are automatically refreshed when expired.
+This version chaches all tokens in JSON (`cache_path`) to avoid re-authentication. The version we use doesn't, it only processes your Tokens and never saves them. Tokens are automatically refreshed when expired.
 
 ---
 
